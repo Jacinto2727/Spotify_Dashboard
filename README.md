@@ -12,14 +12,14 @@ Work with APIs to fetch and enrich data.
 Clean and preprocess datasets for analysis.
 Design and build visually appealing dashboards.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Python: For data cleaning, API integration, and preprocessing.
 Spotify API: To fetch track details, audio features, and cover URLs.
 Pandas: For dataset manipulation and cleaning.
 HTML/CSS: For building the interactive dashboard.
 Data Visualization: Tools like Plotly or Matplotlib for creating charts (if applicable).
 
-📂 Dataset
+## 📂 Dataset
 The dataset consists of the following columns:
 
 track_name: Name of the track.
@@ -34,7 +34,7 @@ mode: The modality of the track (major or minor).
 
 Other audio features like tempo, danceability, energy, etc.
 
-🧹 Data Cleaning and Enhancement
+## 🧹 Data Cleaning and Enhancement
 1. Removing Non-English Characters
 To ensure consistency in the dataset, I removed all non-English characters from the track_name and artist(s)_name columns using Python's re module. This step was crucial for standardizing the data and making it easier to work with.
 
@@ -46,7 +46,7 @@ Replace missing cover_url values with the track's cover art or the artist's imag
 3. Handling API Errors
 I implemented error handling to manage 403 Forbidden errors and rate limits, ensuring the script runs smoothly even when the API encounters issues.
 
-🎨 Interactive Dashboard
+##🎨 Interactive Dashboard
 Using the cover_url and other data collected from the Spotify API, I built an interactive HTML dashboard to visualize the dataset. Here's how I did it:
 
 1. Embedding Spotify URLs
@@ -96,7 +96,7 @@ I created charts and tables to display audio features like key, mode, and tempo.
 3. Design Focus
 Rather than focusing on complex backend logic, I prioritized design and usability. The dashboard is clean, intuitive, and visually appealing, showcasing my ability to create user-friendly interfaces.
 
-4. Publishing to the Web
+## 4. Publishing to the Web
 I published the Power BI dashboard to the web using Power BI's Publish to Web feature. This generated an embed code, which I used to create an interactive HTML file. Users can interact with the dashboard once they sign in to their Spotify account, ensuring a personalized and secure experience.
 
 How It Works
@@ -112,8 +112,8 @@ Users are prompted to sign in to their Spotify account to access the dashboard.
 User Experience:
 Once signed in, users can explore the dataset, filter tracks, and view audio features in real-time.
 
-The dashboard is fully responsive and works seamlessly on all devices.
-For live interaction Click here:https://jacinto2727.github.io/Spotify_Dashboard/ 
+ The dashboard is fully responsive and works seamlessly on all devices.
+## For live interaction Click here:https://jacinto2727.github.io/Spotify_Dashboard/ 
 
 
 
