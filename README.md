@@ -1,32 +1,22 @@
 # Spotify_Dashboard
 Welcome to the Spotify Dashboard project! This repository showcases my journey of analyzing a 2023 Spotify dataset, cleaning and enhancing it using the Spotify API, and creating an interactive dashboard to visualize the data. The project focuses on improving my data visualization and design skills, while also demonstrating the importance of data cleaning and API integration.
 
-📊 Project Overview
+## 📊 Project Overview 
 This project revolves around a dataset containing track names, artist names, and audio features collected from the Spotify API. The goal was to:
-
 Clean the dataset by removing non-English characters and filling missing values using the Spotify API.
-
 Enhance the dataset by fetching additional audio features (e.g., key, mode, tempo, etc.) for each track.
-
 Create an interactive dashboard using HTML and embedded Spotify URLs to visualize the data.
 
 The project highlights my ability to:
-
 Work with APIs to fetch and enrich data.
-
 Clean and preprocess datasets for analysis.
-
 Design and build visually appealing dashboards.
 
 🛠️ Technologies Used
 Python: For data cleaning, API integration, and preprocessing.
-
 Spotify API: To fetch track details, audio features, and cover URLs.
-
 Pandas: For dataset manipulation and cleaning.
-
 HTML/CSS: For building the interactive dashboard.
-
 Data Visualization: Tools like Plotly or Matplotlib for creating charts (if applicable).
 
 📂 Dataset
