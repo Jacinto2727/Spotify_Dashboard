@@ -52,43 +52,6 @@ Using the cover_url and other data collected from the Spotify API, I built an in
 1. Embedding Spotify URLs
 I used the cover_url to display track cover art in the dashboard.
 2. Added a measure named poster containing html code which was made possible to use by PowerBI html extension:
-Poster = 
-VAR x =
-    CALCULATE(
-        MAX('Spotify'[cover_url]),
-        'Spotify'[streams] = MAX('Spotify'[streams])
-    )
-RETURN
-"
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <title>Image Cropping</title>
-    <style>
-        .image-container {
-            width: 1142px; /* Increased width */
-            height: 269px; /* Increased height */
-            overflow: hidden; /* Hide parts of the image that don't fit */
-            border-radius: 0px; /* Slightly more rounded corners */
-            position: relative; /* Relative positioning for the child element */
-        }
-
-        .image {
-            object-fit: cover; /* Cover the entire container */
-            object-position: center; /* Center the image */
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-        }
-    </style>
-</head>
-<body>
-    <div class='image-container'>
-        <img src='" & x & "' alt='Album Cover' class='image'>
-    </div>
-</body>
-</html>
-"
 
 2. Visualizing Audio Features
 I created charts and tables to display audio features like key, mode, and tempo. These visualizations help users understand the characteristics of each track at a glance.
@@ -96,7 +59,7 @@ I created charts and tables to display audio features like key, mode, and tempo.
 3. Design Focus
 Rather than focusing on complex backend logic, I prioritized design and usability. The dashboard is clean, intuitive, and visually appealing, showcasing my ability to create user-friendly interfaces.
 
-## 4. Publishing to the Web
+##  Publishing to the Web
 I published the Power BI dashboard to the web using Power BI's Publish to Web feature. This generated an embed code, which I used to create an interactive HTML file. Users can interact with the dashboard once they sign in to their Spotify account, ensuring a personalized and secure experience.
 
 How It Works
