@@ -46,7 +46,7 @@ Replace missing cover_url values with the track's cover art or the artist's imag
 3. Handling API Errors
 I implemented error handling to manage 403 Forbidden errors and rate limits, ensuring the script runs smoothly even when the API encounters issues.
 
-##🎨 Interactive Dashboard
+## 🎨 Interactive Dashboard
 Using the cover_url and other data collected from the Spotify API, I built an interactive HTML dashboard to visualize the dataset. Here's how I did it:
 
 1. Embedding Spotify URLs
